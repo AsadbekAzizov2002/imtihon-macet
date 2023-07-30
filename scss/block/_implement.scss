@@ -1,0 +1,130 @@
+.implement{
+    background-repeat:no-repeat;
+    background-image:url(../../img/header_img.png);
+    background-position:right;
+}
+.implement_container{
+    padding-top: 150px;
+    padding-bottom: 96px;
+}
+.implement__blok{
+    display: flex;
+    align-items:center;
+    margin-bottom: 150px;
+
+}
+.implement__img{
+    max-width: 445px;
+}
+.implement__img{
+    max-width: 445px;
+    color: #36536B;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    margin-bottom: 24px;
+}
+.implement__text{
+    max-width: 445px;
+    color: #6C8294;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+}
+.simp{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.img{
+    display: flex;
+}
+.inner__img{
+    max-width: 263px;
+}
+.simpp{
+    display: none;
+}
+.customer{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.customer__inner_block{
+    text-align: center;
+    justify-content:center;
+
+}
+.customer__img{
+    max-width: 106px;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.customer__title{
+    max-width: 350px;
+    color: #36536B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+    letter-spacing: -0.138px;
+    margin-bottom: 16px;
+    }
+.customer__text{
+    max-width: 350px;
+    color: #6C8294;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
+    margin-bottom: 96px;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:870px) {
+    .implement__blok{
+        flex-direction: column;
+    }
+    .implement__title ,.implement__img,.implement__text{
+        max-width: 327px;
+    }
+    .simp{
+        display: none;
+    }
+    .simpp{
+        display: block;
+    }
+    .implement__text{
+        margin-bottom: 80px;
+    }
+    .customer{
+        flex-direction: column;
+    }
+    
+
+}
+@media screen and (max-width:673px) {
+    .btn{
+        display: block;
+    }
+    .start{
+        flex-direction: column;
+    }
+    .hero__btn{
+        display: none;
+    }
+    .implement__title{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .btn{
+        text-align: center;}
+}

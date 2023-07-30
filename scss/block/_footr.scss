@@ -1,0 +1,36 @@
+.footr{
+    background: #1B262F;
+
+}
+.footr_container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+.footr__list{
+    display: flex;
+    gap: 40px;
+}
+.footr__img{
+    color: #Fff;
+    max-width: 135px;
+}
+.footr__logo{
+    max-width: 57px;
+    color: #FBFCFE;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media screen and (max-width:601px) {
+    .footr_container{
+        flex-direction: column;
+    }
+    .footr__list{
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+}
